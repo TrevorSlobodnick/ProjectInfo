@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Info - Voltorb Flip</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <h1 class="title">Voltorb Flip</h1>
+    <h2>Project Info</h2>
+    <h3>Description</h3>
+    <p class="description">
+        This app generates all the possible solutions of a given board from the game 
+        "Voltorb Flip". Voltorb Flip is a game in Pokemon Heartgold/Soulsilver that 
+        is similar to Minesweeper. The goal of the game is to uncover all of the 2 
+        and 3 tiles on a given board and move up to higher levels, but if the tile 
+        you select is a Voltorb/bomb, you lose.
+    </p>
+    <h3>My Motivation</h3>
+    <p class="my-motivation">
+        I made this website during a playthough of Pokemon HeartGold, which is a casino minigame
+        within the game. I loved the idea of the game, and wanted to know the odds of winning each
+        level, and therefor, wanted to know how many solutions there was for each board. I didn't find
+        any solutions and thought it would a fun challenge.
+    </p>
+    <h3>Technologies</h3>
+    <ul class="technologies">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+    <h3>Challenges</h3>
+    <dl class="challenges">
+        <dt>Learning About Recursion</dt>
+        <dd>
+            Since this project is dealing with finding all solutions, I knew it would take too long
+            to create every solution and go and then go through each one and only keep the ones that
+            match the criteria. So I looked into recursion, and watched some tutorials on how to make
+            sudoku solvers. Eventually I was able to get the hang of it, but it took a lot of tweaking
+            and testing to make sure everything was working properly.
+        </dd>
+    </dl>
+    <h3>Improvements</h3>
+    <dl class="improvements">
+        <dt>Design First</dt>
+        <dd>
+            I built this project because I was playing through Pokemon Heartgold and I didn't want
+            to think about which card to flip over. I immediately jumped into solving the problem
+            without any thought of what the site would actually look like. To improve the site, I
+            would have wanted to design it first and make it look good on paper, then start building
+            out my idea.
+        </dd>
+        <dt>Dynamic Result Counter</dt>
+        <dd>
+            After having completed the project, I thought it would be a good idea to update the solutions
+            found counter as the solutions are being found, because som boards have a lot of solutions, so
+            the recursive function takes a few seconds to complete. During that time it may look like the
+            website is frozen, when it is actually just getting all the results. I couldn't do this because
+            Javascript only runs on one thread, and in order to change the display, I would have had to change
+            the code, which I did not do because I wanted to move onto other projects.
+        </dd>
+    </dl>
+    <footer>
+        <a href="https://www.tslobodnick.ca/VoltorbFlip">Visit the Site</a>
+        <a href="../index.html">View Info For Other Projects</a>
+    </footer>
+</body>
+</html>

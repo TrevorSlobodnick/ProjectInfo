@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Info - Pokemon Card Collection</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <h1 class="title">Pokemon Card Collection</h1>
+    <h2>Project Info</h2>
+    <h3>Description</h3>
+    <p class="description">
+        This is an app that I made for myself to help manage/track my pokemon card collection.
+    </p>
+    <h3>My Motivation</h3>
+    <p class="my-motivation">
+        After watching a lot of youtubers open really old, expensive pokemon card packs, I
+        wanted to get back into it myself. I was surprised at what cards were considered "high 
+        value", because a lot of the cards that looked cool weren't worth nearly as much as
+        some of these cards. Although I got rid of most of my collection when I was a kid,
+        I still kept some, and I realized I had no way of knowing if I had one of these high 
+        value cards, because I always thought the best cards had the highest hp... So I created
+        this app to track all my cards
+    </p>
+    <h3>Technologies</h3>
+    <ul class="technologies">
+        <li>React</li>
+        <li>PHP</li>
+    </ul>
+    <h3>Challenges</h3>
+    <dl class="challenges">
+        <dt>Creating A Custom &lt;select&gt;</dt>
+        <dd>
+            I always knew &lt;select&gt;'s can only have &lt;option&gt;'s as children, but I thought
+            that &lt;option&gt;'s could have whatever they wanted as children. This is not true. The
+            content of an option tag can only be a string or number, but I wanted to add an 
+            image and string for each option. So I had to find a way to create a custom
+            drop-down list to display each card set. Luckily React has a library called react-select
+            that is very customizable and looks great, so I decided to go with that.
+        </dd>
+        <dt>Status Updates/Notifications</dt>
+        <dd>
+            I wanted a way to let the user know that after taking some sort of action on the website, 
+            that somthing is actually happening. I mainly wanted this functionality for when a user, or I,
+            add a card, and if the card is successfully added, show a quick popup message, and if it failed,
+            show an error message. I found a React library called react-toastify, which does exactly
+            what I was looking for. It allows me to create a short popup that appears for a specified length
+            of time and then it will disappear off the screen. 
+        </dd>
+    </dl>
+    <h3>Improvements</h3>
+    <dl class="improvements">
+        <dt>Easily Add Card</dt>
+        <dd>
+            Currently, You have to enter the card number and match a set icon from the drop-down
+            list to the one on the bottom of the card in order to add a card to the collection. 
+            Entering a number is no problem, but since
+            there are a lot of sets, and the sets list is only getting larger, another solution
+            would be ideal. If each card had some sort of serial number so it could be easily identified,
+            that would be great. But since I can't change the way cards are made, the only other solution
+            I can think of would be to implement some sort of AI that can accurately identify a pokemon card,
+            but since this is out of the scope of the project, it will not be implemented.
+        </dd>
+    </dl>
+    <footer>
+        <a href="https://www.tslobodnick.ca/PokemonCardCollection">Visit the Site</a>
+        <a href="../index.html">View Info For Other Projects</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.15em;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 1em;
+    /* padding: 0px 1.125em; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("wall4.png");
+}
+
+h1{
+    font-size: 2.2em;
+    text-align: center;
+}
+
+h2{
+    color: gray;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 0.3em;
+}
+
+h3{
+    font-size: 1.6em;
+    padding-top: 1em;
+}
+
+p{
+    font-size: 1.2em;
+    padding-top: 0.1em;
+}
+
+ul{
+    padding-left: 2em;
+}
+
+p, dt, dd{
+    font-size: 1.2em;
+    line-height: 1.35em;
+    /* line-height: 24px; */
+}
+
+dl{
+    padding: 0px 0.3em;
+}
+
+dt{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.15em;
+    padding-top: 0.9em;
+}
+
+dt:first-of-type{
+    padding-top: 0.45em;
+}
+
+dd{
+    padding: 0px 0.1em;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 1em 0px;
+    border: solid thin black;
+    background-color: #fafafa;
+}
+
+footer{
+    margin: 1.5em 0px;
+    padding: 1.5em 0px;
+    border-top: solid thick black;
+    border-bottom: solid thick black;
+}
+
+footer a:first-of-type{
+    margin-top: 0px;
+}
+
+footer a{
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
+/* CLASS STYLES */
+
+/*     Project Info - Home Page     */
+h1.project-info{
+    padding: 0.5em 0px;
+}
+
+ul.project-info{
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 1em;
+}
+
+.project-info li{
+    background-color: #fafafa;
+}
+
+.project-info li:first-of-type a{
+    border-top: solid thin black;
+}
+
+.project-info a{
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 0.4em;
+    border-top: none;
+}
+
+
+
+
+
+
+
+/* MOBILE STYLES */
+
+@media (min-width:480px){
+    body{
+        width: 90%;
+    }
+}
+
+@media (min-width:600px){
+    body{
+        width: 75%;
+    }
+}
+
+@media (min-width:801px){
+    h1{
+        font-size: 2.2em;
+    }
+
+    h2{
+        font-size: 1.2em;
+    }
+
+    h3{
+        font-size: 1.8em;
+    }
+
+    p, dd{
+        font-size: 1.3em;
+    }
+
+    li, dt, a{
+        font-size: 1.2em; 
+    }
+}
+
+@media (min-width:1250px){
+    h1{
+        font-size: 2.5em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 2.1em;
+    }
+
+    p, dd{
+        font-size: 1.6em;
+    }
+
+    li, dt, a{
+        font-size: 1.5em; 
+    }
+}
+
+@media (min-width:1500px){
+    h1{
+        font-size: 2.8em;
+    }
+
+    h2{
+        font-size: 1.8em;
+    }
+
+    h3{
+        font-size: 2.4em;
+    }
+
+    p, dd{
+        font-size: 1.9em;
+    }
+
+    li, dt, a{
+        font-size: 1.8em; 
+    }
+}
+
+@media (min-width:1750px){
+    h1{
+        font-size: 3.1em;
+    }
+
+    h2{
+        font-size: 2.1em;
+    }
+
+    h3{
+        font-size: 2.7em;
+    }
+
+    p, dd{
+        font-size: 2.2em;
+    }
+
+    li, dt, a{
+        font-size: 2em; 
+    }
+}
+
+@media (min-width:2000px){
+    body{
+        padding: 3em 1em;
+    }
+    h1{
+        font-size: 5em; 
+    }
+
+    h2{
+        font-size: 2.7em; 
+    }
+
+    h3{
+        font-size: 3.5em;
+    }
+
+    p, dd{
+        font-size: 2.7em;
+    }
+
+    li, dt, a{
+        font-size: 2.4em;
+    }
+}
